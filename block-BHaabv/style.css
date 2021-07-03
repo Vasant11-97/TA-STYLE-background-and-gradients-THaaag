@@ -1,0 +1,316 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Custom Styling */
+
+*,
+*::before, 
+*::after{
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: 'Roboto', sans-serif;
+    background-color: #1D2029;
+
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0px 20px;
+    padding: 0px 48px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* Header */
+
+
+.header {
+    padding-top: 40px;
+}
+
+.outer-circle{
+    width: 60px;
+    height: 30px;
+    background-image: linear-gradient(to left,#3dbfa6, #252a44);
+    border-radius: 36%;
+}
+
+.inside-circle {
+    width: 30%;
+    height: 18px;
+    background-color: #252B43;
+    margin-top: 6px;
+    margin-left: 8px;
+    border-radius: 50%;
+}
+
+.header-h1 {
+    color: white;
+    font-size: 36px;
+}
+
+.header-para {
+    color: #616783;
+    font-size: 20px;
+    padding-right: 20px;
+}
+
+
+/* Main */
+
+/* Section-1 */
+
+.section-1, .section-2 {
+    width: 100%;
+    margin-top: 36px;
+}
+.section-3{
+    width: 100%;
+    margin-top: 24px;
+    padding-bottom: 40px;
+}
+
+
+
+.top-line {
+    width: 100%;
+    height: 6px;
+    background-color: #1f7bcc;
+    border-radius: 2px;
+}
+.top-line-insta{
+    width: 100%;
+    height: 6px;
+    background-image: linear-gradient(to left,#442844, #d39f68);
+    border-radius: 2px;
+}
+.top-line-youtube{
+    width: 100%;
+    height: 6px;
+    background-color: red;
+    border-radius: 2px;
+}
+
+.flex-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-box, .second-box, .third-box, .fourth-box {
+    width: 22%;
+    background-color: #252b43;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.fb-logo, .twitter-logo{
+    color: #158ff3;
+    text-align: center;
+    font-size: 28px;
+    padding-top: 20px;
+}
+
+.instagram-logo {
+    background-color: #252b43;
+    text-align: center;
+    font-size: 28px;
+    padding-top: 20px;
+}
+.youtube-logo {
+    background-color: #252b43;
+    text-align: center;
+    font-size: 28px;
+    padding-top: 20px;
+}
+.insta i{
+    border-radius: 8px;
+    color: #252b43;
+    background: #d6249f;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    
+}
+.youtube i {
+    background-color: red;
+    color: #252b43;
+    border-radius: 50%;
+}
+
+
+.icon-font{
+    color: #616783;
+    font-size: 16px;
+    padding-left: 8px;
+}
+
+.box-h1 {
+    color: white;
+    font-size: 60px;
+}
+
+.box-1-para {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #474f6d;
+}
+.arrow {
+    margin-top: 10px;
+    padding-bottom: 30px;
+}
+.up-arrow {
+    color: #32857c;
+    padding-right: 6px;
+}
+.down-arrow {
+    color: red;
+    padding-right: 6px;
+}
+.arrow-para {
+    color: #32857c;
+}
+.arrow-para-youtube {
+    color: red;
+}
+
+/*  Section 2  */
+
+h3 {
+    font-size: 36px;
+    color: white;
+    margin-top: 60px;
+}
+
+.box{
+
+    background-color: #252b43;
+    border-radius: 8px;
+}
+
+.first-row, .second-row {
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+
+.flex-section-2 {
+    display: flex;
+    justify-content: left;
+}
+
+.front-line {
+    color: #5d658a;
+    font-size: 18px;
+}
+
+.last-line {
+    padding-top: 10px;
+    color: white;
+    font-size: 40px;
+
+}
+
+.section-2-fb-logo, .section-2-twitter-logo{
+    font-size: 36px;
+    color: #158ff3;
+   
+    margin-top: 20px;
+}
+
+
+.section-2-insta-logo i {
+    font-size: 36px;
+    color: #252b43;
+    background: #d6249f;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    border-radius: 35%;
+    margin-top: 20px;
+}
+
+.section-2-youtube-logo {
+    font-size: 36px;
+    color: red;
+    border-radius: 35%;
+    margin-top: 20px;
+}
+
+.section-2-insta-logo i {
+    border-radius: 8px;
+    color: #252b43;
+    background: #d6249f;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+}
+
+.up-arrow-section-2 {
+    color: #32857c;
+    font-size: 24px;
+    padding-right: 6px;
+    padding-top: 10px;
+}
+
+.down-arrow-section-2 {
+    color: red;
+    font-size: 24px;
+    padding-right: 6px;
+}
+
+
+.section-2-arrow-para {
+    color: #32857c;
+    padding-top: 10px;
+}
+.section-2-down-arrow-para {
+    color: red;
+    padding-top: 10px;
+}
